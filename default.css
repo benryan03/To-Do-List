@@ -23,11 +23,11 @@ input[type=number]{
     padding-right: 50;
 }
 
-.task1, .task2, .task3{
+.task {
     background-color: gainsboro;
     padding: 10;
 }
 
-.task1:hover, .task2:hover, .task3:hover {
+.task:hover {
     background-color: white;
 }

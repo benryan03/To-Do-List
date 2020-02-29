@@ -1,7 +1,7 @@
 <html>
 <head>
 
-  <title>To Do List</title>
+  <title>To-Do List</title>
   
   <link rel="stylesheet" type="text/css" href="default.css">
   <script src="script.js"></script>
@@ -12,21 +12,21 @@
   <center>
     <div class="header">
       <h1>
-        To Do List
+        To-Do List
       </h1>
     </div>
     <div class="content">
 
-      Instructions
+      Enter a task that you need to complete in the text box, and click Submit.
+      After you complete the task, click on it to mark it as completed.
       <br><br>
 
-      <div class="task1" id="task1" onclick="task1_clicked()">Task 1</div>
+      <div id="last_div"></div><br><br>
 
-      <div class="task2" id="task2" onclick="task2_clicked()">Task 2</div>
+      New task: 
+      <input type="text" id="newtask">
+      <input type="submit" id="add" onclick="new_task(newtask)" value="Add">
 
-      <div class="task3" id="task3" onclick="task3_clicked()">Task 3</div>
-      <br><br>
-      
     </div>
   </center>
 </body>
