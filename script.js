@@ -44,13 +44,3 @@ function task3_clicked(){
     }
 
 }
-
-
-
-/*function calculation(){
-
-    var income = Number(document.getElementById("newtask").value);
-
-    result = Math.round(result * 100) / 100 //rounds result to 2 decimal places
-    document.getElementById("result").innerHTML = "Your net income: $" + result;
-}*/
